@@ -17,7 +17,7 @@ void driveToPose(float goal_x, float goal_y, float goal_theta, mbot_bridge::MBot
    float vx = goal_x * cos(goal_theta) + goal_y * sin(goal_theta);
    float vy = -1 * goal_x * cos(goal_theta) + goal_y * sin(goal_theta);
    robot.drive(vx,vy,0);
-   sleepFor(3);
+   sleepFor(2);
 }
 
 int main(){
