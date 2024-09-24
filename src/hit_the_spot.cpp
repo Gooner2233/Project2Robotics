@@ -39,9 +39,9 @@ int main(){
      *   driveToPose(2, 3, 0, robot);
      **/
 
-    const odo = robot.readOdometry();
-    float x = odo.x, y = odo.y, theta = odo.theta;
-    driveToPose(x,y,theta);
+    //std::<vector> odo = robot.readOdometry();
+    //float x = odo[0], y = odo[1], theta = odo[2];
+    driveToPose(2,3,0,robot);
 
     // Stop the robot before exiting.
     robot.stop();
