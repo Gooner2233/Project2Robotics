@@ -48,5 +48,5 @@ int main(){
     robot.stop();
 
     // TODO: Print out the robot's final odometry before exiting.
-    std::cout << "Robot's final odometry: " << x << std::endl;
+    std::cout << "Robot's final odometry: " << std::endl;
 }
