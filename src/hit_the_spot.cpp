@@ -42,7 +42,7 @@ int main(){
 
     //std::<vector> odo = robot.readOdometry();
     //float x = odo[0], y = odo[1], theta = odo[2];
-    driveToPose(0.25,0.45,0,robot);
+    driveToPose(-0.5,0.5,0,robot);
 
     // Stop the robot before exiting.
     robot.stop();
